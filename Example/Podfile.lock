@@ -1,0 +1,16 @@
+PODS:
+  - swift-collections-hi (1.1.4.0)
+
+DEPENDENCIES:
+  - swift-collections-hi (from `../`)
+
+EXTERNAL SOURCES:
+  swift-collections-hi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  swift-collections-hi: cba357476b0b188a919b8843fd1f7973bc9d608a
+
+PODFILE CHECKSUM: a478771f6a9e5ee5b5075478bbf1f5df6193d760
+
+COCOAPODS: 1.16.2

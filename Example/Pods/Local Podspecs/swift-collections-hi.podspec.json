@@ -1,0 +1,29 @@
+{
+  "name": "swift-collections-hi",
+  "version": "1.1.4.0",
+  "summary": "Commonly used data structures for Swift.",
+  "description": "Commonly used data structures for Swift.",
+  "homepage": "https://github.com/tospery/swift-collections",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YangJianxiang": "tospery@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tospery/swift-collections.git",
+    "tag": "1.1.4.0"
+  },
+  "requires_arc": true,
+  "swift_versions": "5.3",
+  "platforms": {
+    "ios": "16.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics"
+  ],
+  "source_files": "Sources/**/*.swift",
+  "swift_version": "5.3"
+}
