@@ -24,6 +24,13 @@
     "Foundation",
     "CoreGraphics"
   ],
-  "source_files": "Sources/**/*.swift",
+  "source_files": "Sources/**/*.{swift}",
+  "exclude_files": [
+    "Sources/**/*.gyb",
+    "Sources/CMakeLists.txt"
+  ],
+  "xcconfig": {
+    "SWIFT_FLAGS": "-D COLLECTIONS_RANDOMIZED_TESTING"
+  },
   "swift_version": "5.3"
 }

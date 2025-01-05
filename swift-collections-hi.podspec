@@ -15,6 +15,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '16.0'
   s.frameworks = 'Foundation', 'CoreGraphics'
   
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = 'Sources/**/*.{swift}'
+  s.exclude_files 	= ['Sources/**/*.gyb', 'Sources/CMakeLists.txt']
+  
+  s.xcconfig		= { 'SWIFT_FLAGS' => '-D COLLECTIONS_RANDOMIZED_TESTING' }
   
 end

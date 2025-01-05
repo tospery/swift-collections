@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  swift-collections-hi: cba357476b0b188a919b8843fd1f7973bc9d608a
+  swift-collections-hi: 0ec46314d6c77a034214d31300e6ce6270402a54
 
 PODFILE CHECKSUM: a478771f6a9e5ee5b5075478bbf1f5df6193d760
 
